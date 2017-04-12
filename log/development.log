@@ -270,3 +270,10 @@ Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by LottoController#index as HTML
   Rendered lotto/index.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-12 17:14:46 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
