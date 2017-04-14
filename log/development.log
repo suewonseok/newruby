@@ -7730,3 +7730,18 @@ Processing by LottoController#mouse as HTML
   Parameters: {"input"=>"서원석"}
   Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%84%9C%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 17:46:15 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"서원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-14 17:46:20 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
