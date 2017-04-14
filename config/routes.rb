@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   get 'lotto/index' => 'lotto#index'
   get 'lotto/mouse' => 'lotto#mouse'
-  get 'lotto/keyboard' => 'lotto#keyboard'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

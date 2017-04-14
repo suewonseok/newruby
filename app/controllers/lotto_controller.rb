@@ -13,8 +13,6 @@ class LottoController < ApplicationController
         est_hash << y 
         est_hash2 << x
         end
-        est_hash2.each |x|
-        
         
         
         if params[:input] == est_hash2[0]
@@ -23,7 +21,7 @@ class LottoController < ApplicationController
             answer = '오답입니다'
         end 
         
-        
+       
         
     
         @result = params[:input]
@@ -31,9 +29,6 @@ class LottoController < ApplicationController
         @result_test_hash2 = est_hash2
         @result_test_hash = est_hash
       
-    end
-    def keyboard
-        @result_test_hash = est_hash
     end
 end
 
