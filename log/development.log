@@ -277,3 +277,2761 @@ Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by LottoController#index as HTML
   Rendered lotto/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 61.98.214.251 at 2017-04-13 05:16:25 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 32ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 05:16:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 408ms (Views: 407.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 05:26:26 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/%E3%85%91%E3%85%9C%E3%85%87%E3%84%B7%E3%85%8C" for 61.98.214.251 at 2017-04-13 05:26:31 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/%E3%85%91%E3%85%9C%E3%85%87%E3%84%B7%E3%85%8C"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (28.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.8ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:26:36 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 05:26:39 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:34:58 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:43:24 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:44:09 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:44:14 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:44:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 05:44:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 05:45:11 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 14:30:16 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 368ms (Views: 356.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:02:39 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:38:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:43:11 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index/mouse" for 61.98.214.251 at 2017-04-13 15:43:14 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.3ms)
+
+
+Started GET "/index/mouse" for 61.98.214.251 at 2017-04-13 15:43:48 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+
+
+Started GET "/" for 61.98.214.251 at 2017-04-13 15:44:05 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:44:09 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:44:11 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:44:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:48:12 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:48:15 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `whoistwo' for #<LottoController:0x007fa77e54e480>):
+  app/controllers/lotto_controller.rb:11:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.9ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 15:49:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:49:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:17 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:19 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:21 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:22 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:24 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:26 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:27 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:28 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:29 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:32 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:34 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:39 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:42 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:43 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:44 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:50:46 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:57:55 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `a' for #<LottoController:0x007fa77e8ae7b0>):
+  app/controllers/lotto_controller.rb:13:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.4ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:58:20 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `sample' for {"a"=>"b", "c"=>"d"}:Hash):
+  app/controllers/lotto_controller.rb:14:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 15:59:09 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `sample' for {"a"=>"b", "c"=>"d"}:Hash):
+  app/controllers/lotto_controller.rb:14:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.1ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:03:28 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:03:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:03:36 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:03:36 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:19 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:21 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:23 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:25 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:28 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:30 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:32 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:38 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:10:41 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:11:02 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:15:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/lotto_controller.rb:25: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+            puts talk[0]
+                     ^
+/home/ubuntu/workspace/app/controllers/lotto_controller.rb:41: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/lotto_controller.rb:25: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/controllers/lotto_controller.rb:41: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.7ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:16:39 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `test_hash2' for #<LottoController:0x00000004564128>
+Did you mean?  test_hash
+               testhash):
+  app/controllers/lotto_controller.rb:19:in `block in mouse'
+  app/controllers/lotto_controller.rb:17:in `each'
+  app/controllers/lotto_controller.rb:17:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:17:04 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:17:13 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:17:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:17:43 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:17:45 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:18:05 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:18:07 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:28 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:32 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:36 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:41 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:42 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:44 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:25:45 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:26:03 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:26:07 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:26:09 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:26:10 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:30:47 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `sample' for #<Hash:0x00000003046d68>):
+  app/controllers/lotto_controller.rb:18:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:33:23 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:33:53 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:04 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:07 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:10 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:13 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:48 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:56 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:57 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:34:58 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:39:11 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:43:19 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/lotto_controller.rb:31:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:43:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 16:43:40 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard" for 61.98.214.251 at 2017-04-13 16:53:06 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Rendered lotto/keyboard.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard" for 61.98.214.251 at 2017-04-13 16:55:51 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Rendered lotto/keyboard.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 16:55:59 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 16:58:15 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 16:58:24 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 61.98.214.251 at 2017-04-13 16:58:25 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard" for 61.98.214.251 at 2017-04-13 16:58:27 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Rendered lotto/keyboard.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 16:58:34 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 16:58:42 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 16:58:47 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 17:00:10 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 17:00:18 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EB%8F%84%ED%9B%88" for 61.98.214.251 at 2017-04-13 17:00:27 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"도훈"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%22%EB%8F%84%ED%9B%88%22" for 61.98.214.251 at 2017-04-13 17:00:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"\"도훈\""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:00:42 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%882%22%5D" for 61.98.214.251 at 2017-04-13 17:00:54 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈2\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%882%22%5D" for 61.98.214.251 at 2017-04-13 17:02:34 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈2\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 17:03:07 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 61.98.214.251 at 2017-04-13 17:03:45 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:06 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:16 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:19 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:21 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 116ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:23 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:24 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:26 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:28 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:30 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%882%22%5D" for 61.98.214.251 at 2017-04-13 17:04:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈2\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:04:39 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:06:07 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%22%EB%8F%84%ED%9B%88%22" for 61.98.214.251 at 2017-04-13 17:06:16 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"\"도훈\""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:06:26 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:32 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:34 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:35 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:36 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:06:37 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 61.98.214.251 at 2017-04-13 17:06:47 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 61.98.214.251 at 2017-04-13 17:06:49 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 61.98.214.251 at 2017-04-13 17:09:26 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Array into String):
+  app/controllers/lotto_controller.rb:30:in `include?'
+  app/controllers/lotto_controller.rb:30:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:11:32 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `include?' for nil:NilClass):
+  app/controllers/lotto_controller.rb:30:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.0ms)
+
+
+Started GET "/lotto/mouse" for 61.98.214.251 at 2017-04-13 17:11:47 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%E3%85%88" for 61.98.214.251 at 2017-04-13 17:11:51 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"ㅈ"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%E3%85%88" for 61.98.214.251 at 2017-04-13 17:11:53 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"ㅈ"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%22%EB%8F%84%ED%9B%88%22" for 61.98.214.251 at 2017-04-13 17:12:00 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"\"도훈\""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%22%EB%8F%84%ED%9B%88%22" for 61.98.214.251 at 2017-04-13 17:12:52 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"\"도훈\""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%EB%8F%84%ED%9B%882%22%5D" for 61.98.214.251 at 2017-04-13 17:13:01 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[도훈2\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%EB%8F%84%ED%9B%88%5D" for 61.98.214.251 at 2017-04-13 17:13:14 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[도훈]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%EB%8F%84%ED%9B%88%5D" for 61.98.214.251 at 2017-04-13 17:16:33 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[도훈]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22%EB%8F%84%ED%9B%88%22%5D" for 61.98.214.251 at 2017-04-13 17:16:46 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"도훈\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%22%EB%8F%84%ED%9B%88%22" for 61.98.214.251 at 2017-04-13 17:33:24 +0000
+Cannot render console from 61.98.214.251! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/lotto_controller.rb:45: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/lotto_controller.rb:45: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.8ms)
+
+
+Started GET "/" for 27.119.113.76 at 2017-04-14 03:25:58 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 27ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 27.119.113.76 at 2017-04-14 03:26:59 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-14 03:27:01 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/lotto_controller.rb:45: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/lotto_controller.rb:45: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.3ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-14 03:27:35 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 308ms (Views: 307.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 03:27:38 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:27:45 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 27.119.113.76 at 2017-04-14 03:27:46 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 27.119.113.76 at 2017-04-14 03:27:47 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 03:28:23 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:35:38 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:35:42 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22123%22%5D" for 27.119.113.76 at 2017-04-14 03:35:51 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"123\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22456%22%5D" for 27.119.113.76 at 2017-04-14 03:35:59 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"456\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B456%5D" for 27.119.113.76 at 2017-04-14 03:40:21 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[456]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 03:40:25 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 03:41:30 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:41:34 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 03:41:37 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:41:40 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=123" for 27.119.113.76 at 2017-04-14 03:41:45 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 03:41:54 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 08:28:33 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 08:28:39 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22456%22%5D" for 27.119.113.76 at 2017-04-14 08:28:49 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"456\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22456%22%5D" for 27.119.113.76 at 2017-04-14 08:29:15 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"456\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22456%22%5D" for 27.119.113.76 at 2017-04-14 08:29:23 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"456\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%5B%22456%22%5D" for 27.119.113.76 at 2017-04-14 08:29:48 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"[\"456\"]"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 08:29:51 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=546" for 27.119.113.76 at 2017-04-14 08:30:31 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"546"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 08:30:34 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=" for 27.119.113.76 at 2017-04-14 08:36:28 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=456" for 27.119.113.76 at 2017-04-14 08:39:22 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=123" for 27.119.113.76 at 2017-04-14 08:39:27 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:39:29 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:39:32 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:40:21 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=123" for 27.119.113.76 at 2017-04-14 08:40:25 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"123"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:40:28 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:41:17 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:50:50 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=456" for 27.119.113.76 at 2017-04-14 08:52:32 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"456"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 08:52:35 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 08:58:40 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `원석' for #<LottoController:0x007fe2d22f6450>):
+  app/controllers/lotto_controller.rb:19:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.6ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 08:59:04 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:05:22 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:05:31 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:05:58 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:06:11 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:06:15 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:06:54 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:06:58 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:07:02 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 191ms (Views: 190.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:07:50 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:07:58 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:08:04 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:08:08 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:08:12 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:08:17 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:09:44 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:09:51 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:09:57 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:10:55 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `est_hash2' for #<LottoController:0x007fe2d27de2b0>
+Did you mean?  est_hash2
+               est_hash
+               test_hash
+               testhash):
+  app/controllers/lotto_controller.rb:6:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.4ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:13:35 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `est_hash2' for #<LottoController:0x007fe2d20bd490>
+Did you mean?  est_hash2
+               est_hash
+               test_hash
+               testhash):
+  app/controllers/lotto_controller.rb:6:in `mouse'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:14:07 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:14:14 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:14:18 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:15:26 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:15:35 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:16:07 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:16:13 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:16:20 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input_name=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:17:13 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input_name"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:17:22 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/keyboard.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:21:51 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/nil?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:22:18 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/nil"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (164.6ms)
+
+
+Started GET "/lotto/nil?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:37:17 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/nil"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.2ms)
+
+
+Started GET "/lotto/nil?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:37:42 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/nil"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.4ms)
+
+
+Started GET "/lotto/nil?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:38:14 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/nil"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-14 09:38:36 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:38:39 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:38:43 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/lotto/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/lotto/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:39:02 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/lotto/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/lotto/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:39:26 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/lotto/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:39:38 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:39:43 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.1ms)
+
+
+Started GET "/lotto/index" for 27.119.113.76 at 2017-04-14 09:40:04 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#index as HTML
+  Rendered lotto/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index/mouse" for 27.119.113.76 at 2017-04-14 09:40:08 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (185.1ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:40:16 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:40:32 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:40:36 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/lotto/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (77.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.7ms)
+
+
+Started GET "/lotto/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:41:40 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/lotto/lotto/mouse"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.2ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:41:57 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:41:59 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:42:07 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:42:11 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:42:15 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:42:43 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:42:55 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:43:00 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:44:01 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=dmswjd" for 27.119.113.76 at 2017-04-14 09:44:07 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"dmswjd"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:44:10 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:44:44 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:44:50 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:46:07 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:47:21 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:47:25 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:47:27 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:47:42 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=" for 27.119.113.76 at 2017-04-14 09:51:53 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>""}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:51:58 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:52:03 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:52:08 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:52:25 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:52:30 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 240ms (Views: 239.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:52:57 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9D%80%EC%A0%95" for 27.119.113.76 at 2017-04-14 09:53:01 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"은정"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:53:05 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:54:36 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:54:40 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:54:42 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 09:54:43 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:54:49 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 166ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 09:54:54 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=%EC%9B%90%EC%84%9D" for 27.119.113.76 at 2017-04-14 10:05:24 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"원석"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=abc" for 27.119.113.76 at 2017-04-14 10:05:28 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"abc"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=abc" for 27.119.113.76 at 2017-04-14 10:05:31 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"abc"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=abc" for 27.119.113.76 at 2017-04-14 10:05:35 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"abc"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=qwe" for 27.119.113.76 at 2017-04-14 10:08:17 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"qwe"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse" for 27.119.113.76 at 2017-04-14 10:10:53 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/mouse?input=abc" for 27.119.113.76 at 2017-04-14 10:11:19 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#mouse as HTML
+  Parameters: {"input"=>"abc"}
+  Rendered lotto/mouse.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lotto/keyboard" for 27.119.113.76 at 2017-04-14 10:16:40 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/lotto_controller.rb:36: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/lotto_controller.rb:36: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.0ms)
+
+
+Started GET "/lotto/keyboard" for 27.119.113.76 at 2017-04-14 10:16:54 +0000
+Cannot render console from 27.119.113.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LottoController#keyboard as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `est_hash' for #<LottoController:0x007fe2d255c848>):
+  app/controllers/lotto_controller.rb:33:in `keyboard'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
