@@ -3,9 +3,7 @@ class LottoController < ApplicationController
         
     end
     def mouse
-        
-        input_name =  params[:input]
-        
+       
         est_hash = []
         est_hash2 = []
         testhash = {"abc" => "abcabc", "qwe" => "qweqwe"}
@@ -15,15 +13,20 @@ class LottoController < ApplicationController
         est_hash << y 
         est_hash2 << x
         end
+        est_hash2.each |x|
         
         
-        if input_name == est_hash2[0]
+        
+        if params[:input] == est_hash2[0]
             answer = '정답입니다'
         else
             answer = '오답입니다'
         end 
+        
+        
+        
     
-        @result = input_name
+        @result = params[:input]
         @answer = answer
         @result_test_hash2 = est_hash2
         @result_test_hash = est_hash
